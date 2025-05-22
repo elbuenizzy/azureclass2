@@ -19,3 +19,142 @@ main > h1 {
   text-align: center;
   font-size: 3.5em;
 }
+
+header {
+  background: linear-gradient(90deg, #f7cac9 0%, #ffe5ec 100%);
+  padding: 20px 0 10px 0;
+  box-shadow: 0 2px 8px rgba(247, 202, 201, 0.2);
+}
+
+.logo {
+  font-family: 'Pacifico', cursive, Arial, sans-serif;
+  color: #b56576;
+  font-size: 2.2em;
+  margin: 0 30px;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6d597a;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #b56576;
+}
+
+.hero {
+  text-align: center;
+  background: #ffe5ec;
+  padding: 40px 20px 30px 20px;
+  border-radius: 18px;
+  margin: 30px auto 20px auto;
+  box-shadow: 0 4px 16px rgba(183, 129, 183, 0.08);
+}
+
+.hero-img {
+  width: 220px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+  box-shadow: 0 2px 12px rgba(183, 129, 183, 0.15);
+}
+
+.servicios, .nosotros, .contacto {
+  background: #f7cac9;
+  margin: 30px auto;
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(247, 202, 201, 0.10);
+  max-width: 600px;
+}
+
+.servicios h3, .nosotros h3, .contacto h3 {
+  color: #b56576;
+  margin-top: 0;
+}
+
+.servicios ul {
+  padding-left: 20px;
+}
+
+.servicios li {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+.nosotros p {
+  font-size: 1.1em;
+  color: #6d597a;
+}
+
+.contacto p {
+  margin: 6px 0;
+  color: #6d597a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #b56576;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #fff;
+  resize: none;
+}
+
+button[type="submit"] {
+  background: #b56576;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+  background: #6d597a;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 0 10px 0;
+  background: #ffe5ec;
+  color: #b56576;
+  font-size: 1em;
+  margin-top: 40px;
+  border-radius: 0 0 12px 12px;
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 95%;
+    padding: 5px;
+  }
+  .servicios, .nosotros, .contacto {
+    padding: 15px 5px;
+  }
+  .hero {
+    padding: 25px 5px 20px 5px;
+  }
+}
