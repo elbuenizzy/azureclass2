@@ -21,14 +21,14 @@ main > h1 {
 }
 
 header {
-  background: linear-gradient(90deg, #f7cac9 0%, #ffe5ec 100%);
+  background: linear-gradient(90deg, #b39ddb 0%, #ede7f6 100%);
   padding: 20px 0 10px 0;
-  box-shadow: 0 2px 8px rgba(247, 202, 201, 0.2);
+  box-shadow: 0 2px 8px rgba(179, 157, 219, 0.2);
 }
 
 .logo {
   font-family: 'Pacifico', cursive, Arial, sans-serif;
-  color: #b56576;
+  color: #512da8;
   font-size: 2.2em;
   margin: 0 30px;
   letter-spacing: 2px;
@@ -44,23 +44,23 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #6d597a;
+  color: #4527a0;
   font-weight: bold;
   font-size: 1.1em;
   transition: color 0.2s;
 }
 
 .nav-links a:hover {
-  color: #b56576;
+  color: #7e57c2;
 }
 
 .hero {
   text-align: center;
-  background: #ffe5ec;
+  background: #ede7f6;
   padding: 40px 20px 30px 20px;
   border-radius: 18px;
   margin: 30px auto 20px auto;
-  box-shadow: 0 4px 16px rgba(183, 129, 183, 0.08);
+  box-shadow: 0 4px 16px rgba(94, 53, 177, 0.08);
 }
 
 .hero-img {
@@ -68,20 +68,20 @@ header {
   height: auto;
   border-radius: 50%;
   margin-top: 20px;
-  box-shadow: 0 2px 12px rgba(183, 129, 183, 0.15);
+  box-shadow: 0 2px 12px rgba(94, 53, 177, 0.15);
 }
 
 .servicios, .nosotros, .contacto {
-  background: #f7cac9;
+  background: #b39ddb;
   margin: 30px auto;
   padding: 25px 30px;
   border-radius: 14px;
-  box-shadow: 0 2px 8px rgba(247, 202, 201, 0.10);
+  box-shadow: 0 2px 8px rgba(179, 157, 219, 0.10);
   max-width: 600px;
 }
 
 .servicios h3, .nosotros h3, .contacto h3 {
-  color: #b56576;
+  color: #512da8;
   margin-top: 0;
 }
 
@@ -94,14 +94,8 @@ header {
   font-size: 1.1em;
 }
 
-.nosotros p {
-  font-size: 1.1em;
-  color: #6d597a;
-}
-
-.contacto p {
-  margin: 6px 0;
-  color: #6d597a;
+.nosotros p, .contacto p {
+  color: #4527a0;
 }
 
 form {
@@ -113,7 +107,7 @@ form {
 
 input, textarea {
   padding: 10px;
-  border: 1px solid #b56576;
+  border: 1px solid #7e57c2;
   border-radius: 6px;
   font-size: 1em;
   background: #fff;
@@ -121,7 +115,7 @@ input, textarea {
 }
 
 button[type="submit"] {
-  background: #b56576;
+  background: #7e57c2;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -133,14 +127,14 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: #6d597a;
+  background: #512da8;
 }
 
 footer {
   text-align: center;
   padding: 18px 0 10px 0;
-  background: #ffe5ec;
-  color: #b56576;
+  background: #ede7f6;
+  color: #512da8;
   font-size: 1em;
   margin-top: 40px;
   border-radius: 0 0 12px 12px;
