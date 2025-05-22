@@ -5,13 +5,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Veterinaria GatitosVet</title>
 </head>
 
 <body>
+  <header>
+    <nav>
+      <h1 class="logo">GatitosVet</h1>
+      <ul class="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <section class="hero">
+      <h2>Bienvenidos a GatitosVet</h2>
+      <p>La mejor atención veterinaria especializada solo para gatitos. ¡Cuidamos a tu felino como parte de nuestra familia!</p>
+      <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=600&q=80" alt="Gatito feliz" class="hero-img">
+    </section>
+    <section id="servicios" class="servicios">
+      <h3>Nuestros Servicios</h3>
+      <ul>
+        <li>Consultas generales y especializadas</li>
+        <li>Vacunación y desparasitación</li>
+        <li>Cirugías y esterilización</li>
+        <li>Nutrición y control de peso</li>
+        <li>Estética felina</li>
+      </ul>
+    </section>
+    <section id="nosotros" class="nosotros">
+      <h3>Sobre Nosotros</h3>
+      <p>Somos una clínica veterinaria dedicada exclusivamente al bienestar de los gatitos. Nuestro equipo está conformado por profesionales amantes de los felinos, comprometidos con la salud y felicidad de tu mascota.</p>
+    </section>
+    <section id="contacto" class="contacto">
+      <h3>Contacto</h3>
+      <p>Dirección: Calle de los Gatitos 123, Ciudad Felina</p>
+      <p>Teléfono: (555) 123-4567</p>
+      <p>Email: info@gatitosvet.com</p>
+      <form>
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu email" required>
+        <textarea placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
   </main>
+  <footer>
+    <p>&copy; 2025 GatitosVet. Todos los derechos reservados.</p>
+  </footer>
 </body>
 
 </html>
